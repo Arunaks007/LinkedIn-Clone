@@ -1,0 +1,297 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #f3f2ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: -8px -8px 0 -8px;
+  position: fixed;
+  padding: 3px;
+  width: 100%;
+}
+
+header input {
+  width: 260px;
+  border: none;
+  border-radius: 4px;
+  background-color: #eef3f8;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/149/149852.png");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  background-size: 15px;
+  background-position: 15px;
+  transition-duration: 0.6s;
+}
+
+header input:focus {
+  width: 320px;
+  transition-duration: 0.5s;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: end;
+  margin: 5px 70px 8px 0;
+  margin-left: -100px;
+}
+
+header nav ul li {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: grey;
+}
+
+header nav ul li center > img {
+  width: 22px;
+  height: 21px;
+}
+
+header nav ul li > span {
+  margin-left: -5px;
+}
+
+.searchLogo {
+  height: 35px;
+  display: flex;
+  margin-top: 5px;
+}
+
+.searchLogo img {
+  margin-right: 5px;
+}
+
+.postSection ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.postSection ul > li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: grey;
+}
+
+.postSection ul > li > img {
+  width: 30px;
+  height: 30px;
+}
+
+.postSection > section {
+  display: flex;
+  gap: 10px;
+}
+
+.postSection > section > input {
+  width: 90%;
+  border-radius: 50px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  height: 45px;
+}
+
+.postSection > section > img {
+  width: 9%;
+}
+
+.postSection {
+  padding: 10px 10px 0 10px;
+  max-width: 600px;
+  margin: 0 0;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+
+.bodyPage {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.profile-layout {
+  border: 1px solid white;
+  border-radius: 3%;
+  background-color: white;
+  width: 19%;
+  height: 50%;
+}
+
+.user-details {
+  border-bottom: 2px solid #f3f2ef;
+}
+
+.user-details > img {
+  margin-top: 10px;
+  width: 35%;
+  height: 20%;
+}
+
+.user-details > label > h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.user-details > label > p {
+  font-size: 12px;
+}
+
+.stats label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.stats label > p {
+  margin-bottom: 0;
+}
+
+.stats label > p:nth-child(1) {
+  color: grey;
+}
+
+.stats label > p:nth-child(2) {
+  color: #0a66c5;
+  font-weight: bold;
+}
+
+.stats {
+  padding: 8px 12px 15px 12px;
+  border-bottom: 2px solid #f3f2ef;
+}
+
+.premium {
+  padding: 0px 10px 10px;
+  font-size: 12px;
+  text-align: left;
+  border-bottom: 2px solid #f3f2ef;
+}
+
+.premium > p {
+  margin-bottom: 0;
+}
+
+.savedItem {
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.savedItem img {
+  width: 13px;
+  opacity: 0.5;
+  margin-right: 7px;
+}
+
+.news-section {
+  background-color: white;
+  border-radius: 3%;
+  text-align: left;
+  padding: 10px;
+  width: 25%;
+  height: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.news-section span {
+  color: grey;
+  font-weight: none;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.news-section > ul > li > span {
+  display: flex;
+  gap: 19px;
+}
+
+.news-section > ul {
+  padding-left: 20px;
+}
+
+.news-section > ul > li {
+  padding: 10px 5px 0 5px;
+}
+
+.news-section > ul > li > span > li span {
+  position: relative;
+  left: -5px;
+}
+
+.post-layout {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+}
+
+.posts {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 2%;
+  padding: 13px;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#section1 img {
+  width: 8%;
+}
+
+#section1 div {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#section1 p {
+  font-size: 12px;
+  color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#section2 p {
+  font-size: 14px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+#section3 > img {
+  width: 100%;
+  height: 100%;
+}
